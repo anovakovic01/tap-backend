@@ -1,0 +1,10 @@
+[[constraint]]
+  name = "github.com/go-zoo/bone"
+  version = "1.2.0"
+
+[metadata.heroku]
+  root-package = "github.com/anovakovic01/tap-backend"
+
+[prune]
+  go-tests = true
+  unused-packages = true
